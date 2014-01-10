@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140110204705) do
+ActiveRecord::Schema.define(version: 20140110230641) do
 
   create_table "alerts", force: true do |t|
     t.string   "name"
