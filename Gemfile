@@ -45,3 +45,6 @@ end
 # gem 'debugger', group: [:development, :test]
 
 gem 'rspec-rails'
+group :test, :development do
+  gem 'jasmine-rails'
+end
